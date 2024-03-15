@@ -1,0 +1,153 @@
+body,html{
+	margin: 0;
+	padding: 0;
+    font-family: arial;
+}
+a{
+	text-decoration: inherit;
+}
+.text-center{
+    text-align: center;
+}
+header {
+    background-color: #ffffff;
+    display: inline-block;
+    width: calc(100% - 200px);
+	padding: 15px 100px;
+}
+header .logo{
+	float: left;
+	width: auto;
+}
+header nav{
+	float: right;
+}
+header nav ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+header nav ul li{
+	display: inline-block;
+	margin: 20px 10px;
+}
+header nav ul li:last-child{
+	margin-right: 0;
+}
+header nav ul li a{
+	color: #000000;
+}
+header nav ul li a:hover{
+	color: #80b435;
+}
+section.slider-image {
+    height: 500px;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    margin-top: -4px;
+}
+section.slider-image h1 {
+    font-size: 60px;
+    color: #000000;
+    margin: 216px 50px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    line-height: 70px;
+}
+.about-us-section{
+	display: inline-block;
+	align-items: center;
+    width: calc(100% - 200px);
+    padding: 30px 100px;
+    background-color: #f3f3f3;
+}
+.main-title{
+    font-size: 20px;
+    color: #80b435;
+    margin-bottom: 30px;
+}
+.about-us-section .card{
+    display: flex;
+}
+.about-us-section a{
+	width: auto;
+	float: left;
+}
+.about-us-section .right-block {
+    margin-left: 50px;
+    display: inline-block;
+    width: 60%;
+}
+footer{
+	background-color: #ffffff;
+    display: inline-block;
+    width: calc(100% - 200px);
+	padding: 10px 100px;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	margin-bottom: 10px;
+}
+section.contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+}
+.btn{
+    background-color: #80b435;
+    border: medium none;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    width: auto;
+}
+input{
+	border: 1px solid #333333;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+}
+fieldset {
+    border: medium none;
+    text-align: center;
+}
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+.featured-section{
+    display: inline-block;
+    width: calc(100% - 50px);
+	color: #333333;
+}
+.featured-section table{
+	width: 60%;
+    margin: 50px auto;
+    max-width: 600px;
+}
+.featured-section strong {
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+.featured-section a {
+	color: #ffffff;
+    background-color: #80b435;
+    padding: 10px 20px;
+}
+form#phpcontactform {
+    background-color: #f8f8f8;
+    padding: 30px;
+}
